@@ -147,7 +147,7 @@ return (
                   font-medium
                   "
               >
-                Sing Up
+                Registrar
               </Button>
             </div>
             <div>
@@ -159,7 +159,7 @@ return (
                   py-2
                   "
               >
-                Log In
+                Entre
               </Button>
             </div>
           </>

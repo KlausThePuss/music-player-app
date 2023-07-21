@@ -21,13 +21,13 @@ const Sidebar: React.FC<SidebarProps> = ({
     () => [
       {
         icon: HiHome,
-        label: "Home",
+        label: "Inicio",
         active: pathName !== "/search",
         href: "/",
       },
       {
         icon: BiSearch,
-        label: "Search",
+        label: "Procurar",
         active: pathName == "/search",
         href: "/search",
       },

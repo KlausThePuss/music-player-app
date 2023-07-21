@@ -27,7 +27,7 @@ return (
             font-semibold
             "
         >
-          Welcome Back
+          Bem Vindo de Volta
         </h1>
         <div
           className="
@@ -38,10 +38,13 @@ return (
             2xl:grid-cools-4
             gab-3
             mt-4
-            
             "
         >
-          <ListItem />
+          <ListItem
+            image="/images/liked.png"
+            name="Musicas Favoritas"
+            href="liked"
+          />
         </div>
       </div>
     </Header>

@@ -42,7 +42,7 @@ return (
               text-md
             "
           >
-            Your Library
+            Sua Biblioteca
           </p>
       </div>
         <AiOutlinePlus
@@ -65,7 +65,7 @@ return (
         px-3
       "
     >
-      List of Songs!
+      Lista de Musicas!
 
     </div>
   </div>
