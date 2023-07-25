@@ -65,7 +65,7 @@ return (
         px-3
       "
     >
-      Lista de Musicas!
+      Lista de Musicas new!
 
     </div>
   </div>
