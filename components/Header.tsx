@@ -5,7 +5,11 @@ import { twMerge } from "tailwind-merge";
 import { RxCaretLeft, RxCaretRight } from "react-icons/rx";
 import { HiHome } from "react-icons/hi";
 import { BiSearch } from "react-icons/bi";
+
+import useAuthModal from "@/hooks/useAuthModal";
+
 import Button from "./Button";
+import AuthModal from "./authModal";
 
 interface HeaderProps {
   children: React.ReactNode;
@@ -17,11 +21,12 @@ const Header: React.FC<HeaderProps> = ({
   className
 }) => {
 
+  const authModal = useAuthModal();
   const router = useRouter();
 
   const handleLogout = () => {
 
-}
+};
 
 return (
   <div
@@ -140,7 +145,7 @@ return (
           <>
             <div>
               <Button
-                onClick={() => {}}
+                onClick={authModal.onOpen}
                 className="
                   bg-transparent
                   text-neutral-300
@@ -152,7 +157,7 @@ return (
             </div>
             <div>
               <Button
-                onClick={() => {}}
+                onClick={authModal.onOpen}
                 className="
                   bg-white
                   px-6

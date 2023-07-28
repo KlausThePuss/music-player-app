@@ -33,14 +33,14 @@ return (
         <TbPlaylist size={25} 
           className="
             text-neutral-400
-          "
+            "
         />
           <p
             className="
               text-neutral-400
               font-medium
               text-md
-            "
+              "
           >
             Sua Biblioteca
           </p>
@@ -53,7 +53,7 @@ return (
             cursor-pointer
             hover:text-white
             transition
-          "
+            "
         />
     </div>
     <div
@@ -63,7 +63,7 @@ return (
         gap-y-2
         mt-4
         px-3
-      "
+        "
     >
       Lista de Musicas new!
 
