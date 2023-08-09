@@ -73,7 +73,7 @@ return (
           flex
           items-center
           justify-center
-          bg-green-500
+          bg-green-400
           p-3
           drop-shadow-md
           right-5
