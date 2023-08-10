@@ -37,7 +37,7 @@ const AuthModal = () => {
 
 return (
  <Modal
-  title="Bem Vindo de Volta"
+  title="Bem Vindo ao JinxPlayer"
   description="Acesse a sua Conta"
   isOpen={isOpen}
   onChange={onChange}
